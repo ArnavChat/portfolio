@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    background-color: #F0F0F0;
+}
+
+/* NAVBAR */
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    padding: 2% 3%;
+    align-items: center;
+    background-color: #c4bfbf;
+}
+nav a{
+    text-decoration: none;
+    color: #ebe9e9;
+}
+.nav-title{
+    color: black;
+    flex: 5;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.nav-links{
+    flex: 0.7;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-links:hover{
+    color: black;
+}
+
+/* HEADER */
+
+
+
+header h1{
+    padding-top: 3%;
+    font-size: 2.5rem;
+    line-height: 0.7;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+
+/* MUSIC */
+
+.lost-stories-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10% 10% 0;
+}
+
+/* CRICKET */
+
+.hobbie-class{
+    padding: 5% 20%;
+    display: flex;
+    
+}
+
+.left-container, .even-left-container{
+    width: 70%;
+}
+
+
+.cricket-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 0% 0% 10%;
+}
+
+.even-right-container, .right-container{
+    width: 60%;
+    padding: 0% 5% 3%;
+    text-align: justify;
+    background-color: #a6a6a6;
+}
+
+.right-container{
+    border-radius: 10% 0 0 10%;
+}
+
+.even-right-container{
+    border-radius: 0 10% 10% 0;
+}
+
+
+.right-container h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.right-container p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Coding */
+.coding-gif{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10% 10% 0;
+}
+
+
+.last-hr{
+    margin-bottom: 5%;
+}
+
+/* FOOTER */
+#footer{
+    background-color: #c4bfbf;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 2% 5%;
+}
