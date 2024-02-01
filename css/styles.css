@@ -250,3 +250,195 @@ nav a{
     font-family: 'Outfit', sans-serif;
     padding: 2% 5%;
 }
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    /* NAV BAR */
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .nav-title {
+        order: 1;
+    }
+
+    .nav-links {
+        order: 2;
+        flex: 1;
+    }
+
+    /* ABOUT ME */
+    #about-me {
+        flex-direction: column;
+        padding: 20% 5% 10%;
+    }
+
+    .odd-left-container,
+    .odd-right-container {
+        flex: 1;
+        border-radius: 0;
+    }
+
+    .odd-left-container{
+        padding-top: 25%;
+    }
+
+    .profile-image {
+        width: 100%;
+        border-radius: 100%;
+    }
+
+    /* EDUCATION */
+    #education {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+
+    .even-left-container,
+    .even-right-container {
+        flex: 1;
+        border-radius: 0;
+    }
+
+
+    .VIT-img {
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    /* PROJECTS */
+    #projects {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+
+    .left-container,
+    .right-container {
+        flex: 1;
+        border-radius: 0;
+    }
+
+    .APPVITITE-img {
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    /* SKILLS */
+    #skills {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+
+    .skills-left-container,
+    .skills-right-container {
+        flex: 1;
+        border-radius: 0;
+    }
+
+    .skills-img {
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 2% 2%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjustments for medium-sized screens (tablets) */
+
+    /* NAV BAR */
+    nav {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .nav-title,
+    .nav-links {
+        order: 0;
+        flex: 1;
+    }
+
+    /* ABOUT ME */
+    #about-me {
+        flex-direction: row;
+        padding: 15% 15% 10%;
+    }
+
+    .odd-left-container,
+    .odd-right-container {
+        flex: 1;
+        border-radius: 10%;
+    }
+
+    .profile-image {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    /* EDUCATION */
+    #education {
+        flex-direction: row;
+        padding: 10% 15%;
+    }
+
+    .even-left-container,
+    .even-right-container {
+        flex: 1;
+        border-radius: 10% 0 0 10%;
+    }
+
+    .VIT-img {
+        width: 100%;
+        border-radius: 0 10% 10% 0;
+    }
+
+    /* PROJECTS */
+    #projects {
+        flex-direction: row;
+        padding: 10% 15%;
+    }
+
+    .left-container,
+    .right-container {
+        flex: 1;
+        border-radius: 10%;
+    }
+
+    .APPVITITE-img {
+        width: 100%;
+        padding-top: 50%;
+        border-radius: 0 10% 10% 0;
+    }
+
+    /* SKILLS */
+    #skills {
+        flex-direction: row;
+        padding: 10% 15%;
+    }
+
+    .skills-left-container,
+    .skills-right-container {
+        flex: 1;
+        border-radius: 10% 0 0 10%;
+    }
+
+    .skills-img {
+        width: 100%;
+        border-radius: 0 10% 10% 0;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 2% 5%;
+    }
+}
