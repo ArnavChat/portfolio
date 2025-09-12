@@ -10,15 +10,8 @@ Live demo: [https://arnavchat.github.io/portfolio/](https://arnavchat.github.io/
 
 * About
 * Live demo
-* Contact / Resume
-* Projects (what's included)
-* Education
-* Skills
-* Tech stack
 * Project structure
 * Run locally
-* Contributing
-* License
 * Author / Contact
 
 ---
@@ -39,53 +32,6 @@ Open the live site on GitHub Pages:
 
 ---
 
-## Contact / Resume
-
-* **Email**: linked on the site (visible on the page header).
-* **Resume**: a Google Drive link is provided on the portfolio site (may require Google sign-in to view).
-
----
-
-## Projects featured on the site
-
-### AppVITite — Restaurant Website
-
-* Small static restaurant demo with menu, catering and FAQ pages.
-* Built with HTML, CSS and Bootstrap; designed as a mobile-friendly static demo.
-* Live demo: `https://arnavchat.github.io/AppVITite/`
-
-### IRCTC Homepage Clone
-
-* A front-end clone of the IRCTC homepage built using Bootstrap and plain HTML/CSS.
-* A useful demonstration of responsive layout and component composition.
-* Live demo: `https://arnavchat.github.io/IRCTC-homepage-CSS-Bootstrap/`
-
-(Each project includes a direct link from the portfolio and may also include separate image assets and pages in the project folders.)
-
----
-
-## Education (as shown on the site)
-
-* **Vellore Institute of Technology (VIT), Vellore** — B.Tech in Computer Science. Reported CGPA: 9.54. Graduation date: Aug 2026.
-* **Tagore Public School, Jaipur** — CBSE 12th Grade: 93.4% (Mar 2022)
-* **St. Anselm's Sr. Sec. School, Ajmer** — CBSE 10th Grade: 96.8% (Mar 2020)
-
----
-
-## Skills and coursework
-
-* **Skills:** C/C++, Python, Java, HTML, CSS, JavaScript, Node.js, Express.js, EJS, Git, GitHub
-* **Coursework:** Data Structures, Algorithms, Object Oriented Programming
-
----
-
-## Tech stack
-
-* Static HTML + CSS + Bootstrap
-* Hosted on GitHub Pages
-
----
-
 ## Project structure (root)
 
 ```
@@ -95,8 +41,6 @@ portfolio/
 ├─ index.html      # main portfolio page
 ├─ README.md       # (this file)
 ```
-
-(If the repository contains project subfolders like `AppVITite/` or `IRCTC-homepage-CSS-Bootstrap/`, those hold the corresponding project sources.)
 
 ---
 
@@ -142,11 +86,6 @@ The site is intentionally lightweight. Suggested improvements:
 
 To contribute: fork, create a branch, implement changes, and open a pull request.
 
----
-
-## License
-
-No license is included by default. Add a `LICENSE` file (e.g., MIT) if you wish to open-source the repository.
 
 ---
 
@@ -156,10 +95,3 @@ Portfolio content and code by **Arnav Chaturvedi**.
 
 ---
 
-## Notes & TODO
-
-* The site links to a Google Drive resume which may require authentication to view — consider hosting a public PDF in the repo or enabling direct download.
-* Consider adding a `projects/` index page that links to each project repo and includes short write-ups and screenshots.
-* Optionally add a `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` for collaborators.
-
----
